@@ -1332,7 +1332,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.ALI-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://raw.githubusercontent.com/HasaanMirza/HA-SU/main/HASU.txt").text
+	r1=requests.get("https://raw.githubusercontent.com/SADMANSANI69/MR-SANNY/main/MR-SANNY.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
@@ -1351,13 +1351,13 @@ def Subscraption():
 		print("")
 		print(" Copy And Send Key To Admin")
 		print ("")
-		print (" Your Key : "+ak+sanny+key1)
+		print (" Your Key : "+ak+SANNY+key1)
 		print ("")
 		name = input(" Your Name : ")
 		print ("")
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ahsan+''+key1
-		os.system('am start https://wa.me/01715256945?text=' + tks)
+		os.system('am start https://wa.me/+923234734950?text=' + tks)
 		Subscraption()        
 Main()
